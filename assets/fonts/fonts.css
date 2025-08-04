@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "Figtree-Regular";
+  src: url("../fonts/Figtree-Regular.eot");
+  src: url("../fonts/Figtree-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Figtree-Regular.woff2") format("woff2"),
+    url("../fonts/Figtree-Regular.woff") format("woff"),
+    url("../fonts/Figtree-Regular.ttf") format("truetype"),
+    url("../fonts/Figtree-Regular.svg#Figtree-Regular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Figtree-Black";
+  src: url("../fonts/Figtree-Black.eot");
+  src: url("../fonts/Figtree-Black.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Figtree-Black.woff2") format("woff2"),
+    url("../fonts/Figtree-Black.woff") format("woff"),
+    url("../fonts/Figtree-Black.ttf") format("truetype"),
+    url("../fonts/Figtree-Black.svg#Figtree-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Figtree-ExtraBold";
+  src: url("../fonts/Figtree-ExtraBold.eot");
+  src: url("../fonts/Figtree-ExtraBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Figtree-ExtraBold.woff2") format("woff2"),
+    url("../fonts/Figtree-ExtraBold.woff") format("woff"),
+    url("../fonts/Figtree-ExtraBold.ttf") format("truetype"),
+    url("../fonts/Figtree-ExtraBold.svg#Figtree-ExtraBold") format("svg");
+  font-weight: bolder;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Figtree-Bold";
+  src: url("../fonts/Figtree-Bold.eot");
+  src: url("../fonts/Figtree-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Figtree-Bold.woff2") format("woff2"),
+    url("../fonts/Figtree-Bold.woff") format("woff"),
+    url("../fonts/Figtree-Bold.ttf") format("truetype"),
+    url("../fonts/Figtree-Bold.svg#Figtree-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Figtree-Light";
+  src: url("../fonts/Figtree-Light.eot");
+  src: url("../fonts/Figtree-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Figtree-Light.woff2") format("woff2"),
+    url("../fonts/Figtree-Light.woff") format("woff"),
+    url("../fonts/Figtree-Light.ttf") format("truetype"),
+    url("../fonts/Figtree-Light.svg#Figtree-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Figtree-Medium";
+  src: url("../fonts/Figtree-Medium.eot");
+  src: url("../fonts/Figtree-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Figtree-Medium.woff2") format("woff2"),
+    url("../fonts/Figtree-Medium.woff") format("woff"),
+    url("../fonts/Figtree-Medium.ttf") format("truetype"),
+    url("../fonts/Figtree-Medium.svg#Figtree-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}

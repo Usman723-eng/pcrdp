@@ -1,0 +1,302 @@
+.tag-otr {
+  display: flex;
+  margin-bottom: 16px;
+}
+.tag-otr .tag-text {
+  font-size: 16px;
+  line-height: 30px;
+  font-family: "Figtree-Bold";
+  padding: 0 12px;
+  color: var(--theme-primary-color);
+  background-color: #f3f4f6;
+  border-radius: 8px;
+}
+
+/*===============================
+       Banner Start Here
+===============================*/
+
+.banner-main-new .row {
+  align-items: center;
+  justify-content: space-between;
+}
+.banner-main-new .container .col-inr .heading {
+  font-size: 64px;
+  line-height: 76px;
+}
+@media (max-width: 575px) {
+  .banner-main-new .tag-otr {
+    justify-content: center;
+  }
+  .banner-main-new .tag-otr .tag-text {
+    background-color: var(--theme-primary-light2);
+  }
+  .banner-main-new .container .col-inr .heading {
+    font-size: 48px;
+    line-height: 58px;
+  }
+}
+.banner-main-new .col-img-inr .banner-img-otr .banner-img-inr {
+  height: 380px;
+}
+
+/*===============================
+       Banner End Here
+===============================*/
+
+/*===============================
+       Pricing Plan Start Here
+===============================*/
+
+.pricing-main-new {
+  margin: 128px 0;
+}
+@media (max-width: 991px) {
+  .pricing-main-new {
+    margin: 60px 0;
+  }
+}
+.pricing-main-new .tag-otr {
+  justify-content: center;
+}
+.pricing-main-new .sec-heading-desc {
+  gap: 0;
+}
+.pricing-main-new .table-main {
+  overflow: auto;
+  width: 100%;
+}
+.pricing-main-new .pricing-table {
+  min-width: 1100px;
+  width: 100%;
+}
+.pricing-main-new .pricing-table thead th {
+  text-align: left;
+  padding: 12px 16px;
+  color: var(--theme-black2-color50);
+}
+.pricing-main-new .pricing-table tbody tr{
+  padding: 10px;
+  background-color: #f3f4f6;
+  transition: .3s;
+}
+.pricing-main-new .pricing-table tbody tr:hover{
+  background-color: #ffffff;
+}
+.pricing-main-new .pricing-table tbody tr:not(:last-child){
+  border-bottom: 2px solid #ffffff;
+}
+.pricing-main-new .pricing-table tbody {
+  background-color: var(--theme-white-color);
+  box-shadow: 0px 25px 60px 0px rgba(0, 0, 0, 0.1);
+}
+.pricing-main-new .pricing-table tbody td {
+  padding: 12px 16px;
+}
+.pricing-main-new .pricing-table tbody td:nth-child(2),
+.pricing-main-new .pricing-table tbody td:nth-child(5) {
+  width: 100px;
+}
+.pricing-main-new .pricing-table tbody td:nth-child(3),
+.pricing-main-new .pricing-table tbody td:nth-child(4) {
+  width: 220px;
+}
+.pricing-main-new .pricing-table tbody td:last-child {
+  width: 177px;
+}
+.pricing-main-new .pricing-table td .cpu-otr {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.pricing-main-new .pricing-table td .action-otr {
+  display: flex;
+}
+.pricing-main-new .pricing-table td .theme-btn-fill {
+  font-size: 18px;
+  line-height: 32px;
+  padding: 8px 24px;
+}
+
+/*===============================
+       Pricing Plan End Here
+===============================*/
+
+/*===============================
+       Features Start Here
+===============================*/
+
+.features-main-new {
+  background-color: transparent;
+  padding: 0;
+  margin: 128px 0;
+}
+.features-main-new .wrapper{
+  width: min(800px, 100%);
+  text-align: center;
+  margin: 0 auto 48px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+@media (max-width: 991px) {
+  .features-main-new {
+    margin: 60px 0;
+  }
+}
+.features-main-new .tag-otr {
+  margin: 0;
+}
+.features-main-new .col-inr h3 {
+  color: var(--theme-black2-color);
+}
+.features-main-new .col-inr .desc {
+  color: var(--theme-black2-color75);
+}
+
+/*===============================
+       Features End Here
+===============================*/
+
+/*===============================
+       Servers Start Here
+===============================*/
+
+.servers-main-new {
+  padding: 128px 0;
+  background-color: #f3f4f6;
+}
+@media (max-width: 991px) {
+  .servers-main-new {
+    margin: 60px 0;
+    padding: 60px 0;
+  }
+}
+.servers-main-new .row {
+  gap: 40px 0;
+  justify-content: space-between;
+}
+.servers-main-new .col-img-inr {
+  position: sticky;
+  top: 100px;
+  left: 0;
+}
+.servers-main-new .col-img-inr .server-img {
+  width: 100%;
+  height: 500px;
+}
+.servers-main-new .col-content-inr {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+}
+@media (max-width: 768px) {
+  .servers-main-new .col-content-inr {
+    gap: 24px;
+  }
+}
+.servers-main-new .col-content-inr h2 {
+  font-size: 48px;
+  line-height: 62px;
+  font-family: "Figtree-Bold";
+  margin-bottom: 24px;
+}
+@media (max-width: 575px) {
+  .servers-main-new .col-content-inr h2 {
+    font-size: 32px;
+    line-height: 44px;
+  }
+}
+.servers-main-new .col-content-inr .features-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.servers-main-new .col-content-inr .features-ul .features-li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.servers-main-new .col-content-inr .features-ul .features-li span {
+  color: var(--theme-black2-color75);
+}
+.servers-main-new .col-content-inr .features-li .check-icon {
+  width: 32px;
+  height: 32px;
+  fill: var(--theme-primary-color);
+}
+
+/*===============================
+       Servers End Here
+===============================*/
+
+/*===============================
+       Logo Sec Start Here
+===============================*/
+
+.logo-sec-new .tag-otr {
+  justify-content: center;
+}
+.logo-sec-new .sec-heading-desc {
+  gap: 0;
+}
+
+/*===============================
+       Logo Sec End Here
+===============================*/
+
+/*===============================
+       User-case Start Here
+===============================*/
+
+.user-case-new .tag-otr {
+  justify-content: center;
+}
+.user-case-new .sec-heading-desc {
+  gap: 0;
+}
+.user-case-new .col-content-inr ul {
+  display: flex;
+  flex-direction: column;
+}
+.user-case-new .col-content-inr ul li {
+  color: var(--theme-black2-color);
+  padding: 8px 24px;
+  border-radius: 8px;
+  width: 100%;
+}
+.user-case-new .col-content-inr ul li.active {
+  background-color: var(--theme-primary-light2);
+  color: var(--theme-primary-color);
+}
+.user-case-new .tab-content {
+  display: none;
+}
+.user-case-new .tab-content.active {
+  display: flex;
+}
+.user-case-new .action-otr {
+  display: flex;
+  margin-top: 48px;
+}
+
+/*===============================
+       User-case Start Here
+===============================*/
+
+/*===============================
+       Faq's Start Here
+===============================*/
+
+.faq-main-new .tag-otr {
+  justify-content: center;
+}
+.faq-main-new .sec-heading-desc {
+  gap: 0;
+}
+
+/*===============================
+       Faq's End Here
+===============================*/

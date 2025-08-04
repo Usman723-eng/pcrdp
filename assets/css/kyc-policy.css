@@ -1,0 +1,116 @@
+.kyc-policy-main {
+  margin: 64px 0 128px 0;
+}
+@media (max-width: 991px) {
+  .kyc-policy-main {
+    margin: 40px 0 60px 0;
+  }
+}
+.kyc-policy-main .row-custom {
+  gap: 40px 0;
+}
+.kyc-policy-main .col-links-inr {
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.kyc-policy-main .col-links-inr .kyc-links {
+  color: var(--theme-black2-color75);
+  transition: 0.3s;
+}
+.kyc-policy-main .col-links-inr .kyc-links:hover,
+.kyc-policy-main .col-links-inr .kyc-active {
+  color: var(--theme-primary-color);
+}
+.kyc-policy-main .col-content-inr {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.kyc-policy-main .col-content-inr .content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.kyc-policy-main .col-content-inr .heading {
+  font-size: 36px;
+  line-height: 44px;
+  color: var(--theme-black2-color);
+}
+@media (max-width: 575px) {
+  .kyc-policy-main .col-content-inr {
+    gap: 24px;
+  }
+  .kyc-policy-main .col-content-inr .heading {
+    font-size: 24px;
+    line-height: 38px;
+  }
+}
+.kyc-policy-main .col-content-inr .desc {
+  color: var(--theme-black2-color75);
+}
+.kyc-policy-main .col-content-inr .num-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-left: 20px;
+}
+.kyc-policy-main .col-content-inr .num-list .desc-li {
+  color: var(--theme-black2-color75);
+  list-style: auto;
+}
+.kyc-policy-main .col-content-inr .num-list .desc-li::marker {
+  font-weight: bold;
+  color: var(--theme-black2-color);
+}
+.kyc-policy-main .col-content-inr .num-list .desc-li span {
+  color: var(--theme-black2-color);
+}
+.kyc-policy-main .col-content-inr .content-faq {
+  gap: 24px;
+}
+.kyc-policy-main .col-content-inr .accordion {
+  background-color: var(--theme-light-bg);
+  border-radius: 8px;
+}
+.kyc-policy-main .col-content-inr .acco-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px 32px;
+}
+.kyc-policy-main .col-content-inr .acco-header h3 {
+  color: var(--theme-black2-color);
+}
+.kyc-policy-main .col-content-inr .acco-header .icon-otr {
+  display: flex;
+}
+.kyc-policy-main .col-content-inr .acco-header .acco-icon {
+  width: 28px;
+  height: 28px;
+  fill: var(--theme-black2-color50);
+}
+.kyc-policy-main .col-content-inr .accor-body {
+  padding: 16px 32px 24px 32px;
+  border-top: 1px solid var(--border-color);
+}
+.kyc-policy-main .col-content-inr .accor-body .body-text {
+  color: var(--theme-black2-color75);
+}
+.kyc-policy-main .col-content-inr .icons-ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.kyc-policy-main .col-content-inr .icons-link .icon {
+  width: 32px;
+  height: 32px;
+  fill: var(--theme-black2-color50);
+  transition: 0.3s;
+}
+.kyc-policy-main .col-content-inr .icons-link .icon:hover {
+  fill: var(--theme-black2-color);
+}
