@@ -1,0 +1,2 @@
+[28-Jun-2024 10:02:05 UTC] PHP Warning:  require(PHPMailer/src/Exception.php): failed to open stream: No such file or directory in /home/htzolktr17xm/public_html/phpmailer/sendmail.php on line 7
+[28-Jun-2024 10:02:05 UTC] PHP Fatal error:  require(): Failed opening required 'PHPMailer/src/Exception.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/htzolktr17xm/public_html/phpmailer/sendmail.php on line 7
