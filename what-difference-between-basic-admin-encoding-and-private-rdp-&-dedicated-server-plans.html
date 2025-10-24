@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="assets/fonts/fonts.css">
     <link rel="stylesheet" href="assets/css/header-footer.css">
     <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/share-button.css">
 </head>
 
 <body>
@@ -532,33 +533,139 @@
                                     by Admin
                                 </li>
                             </ul>
-                            <ul class="icons-ul">
-                                <li class="icons-li">
-                                    <a href="" class="icons-link">
-                                        <i class="ph-facebook-logo-fill icon"></i>
-                                    </a>
-                                </li>
-                                <li class="icons-li">
-                                    <a href="" class="icons-link">
-                                        <i class="ph-instagram-logo-fill icon"></i>
-                                    </a>
-                                </li>
-                                <li class="icons-li">
-                                    <a href="" class="icons-link">
-                                        <i class="ph-twitter-logo-fill icon"></i>
-                                    </a>
-                                </li>
-                                <li class="icons-li">
-                                    <a href="" class="icons-link">
-                                        <i class="ph-telegram-logo-fill icon"></i>
-                                    </a>
-                                </li>
-                                <li class="icons-li">
-                                    <a href="" class="icons-link">
-                                        <i class="ph-whatsapp-logo-fill icon"></i>
-                                    </a>
-                                </li>
-                            </ul>
+                            <div class="share-popup-main">
+                                <div class="floating-share-container" id="floatingShare">
+                                    <button type="button" title="share" class="floating-share-btn theme-btn-outline" id="shareBtn">
+                                        Share
+                                        <i class="ph ph-share-network"></i>
+                                    </button>
+                                </div>
+
+                                <div class="share-modal-overlay" id="shareModal">
+                                    <div class="share-modal">
+                                        <div class="share-modal-content">
+                                            <div class="share-modal-header">
+                                                <h3 class="heading-h3">Share this page</h3>
+                                                <button title="close" class="share-modal-close theme-btn-outline" id="closeModal">
+                                                    <i class="ph ph-x icon"></i>
+                                                </button>
+                                            </div>
+                                            
+                                            <div class="share-modal-body">
+                                                <div class="share-url-section">
+                                                    <div class="share-url-container">
+                                                        <input title="share url" type="text" class="theme-input share-url-input" id="shareUrl" readonly>
+                                                        <button class="theme-btn-fill copy-url-btn" id="copyUrlBtn">
+                                                            <span class="copy-btn-content">
+                                                                <i class="ph ph-copy icon"></i>
+                                                                <span class="copy-text share-modal-text">Copy</span>
+                                                                <span class="copy-success share-modal-text">Copied!</span>
+                                                            </span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="platforms-section">
+                                                    <div class="share-platforms">
+                                                        <div class="share-platform" data-platform="facebook">
+                                                            <div class="platform-wrapper">
+                                                                <div class="platform-icon facebook">
+                                                                    <i class="ph ph-facebook-logo icon"></i>
+                                                                    <div class="icon-bg"></div>
+                                                                </div>
+                                                                <span class="platform-name">Facebook</span>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                        <div class="share-platform" data-platform="twitter">
+                                                            <div class="platform-wrapper">
+                                                                <div class="platform-icon twitter">
+                                                                    <i class="ph ph-twitter-logo icon"></i>
+                                                                    <div class="icon-bg"></div>
+                                                                </div>
+                                                                <span class="platform-name">Twitter</span>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                        <div class="share-platform" data-platform="whatsapp">
+                                                            <div class="platform-wrapper">
+                                                                <div class="platform-icon whatsapp">
+                                                                    <i class="ph ph-whatsapp-logo icon"></i>
+                                                                    <div class="icon-bg"></div>
+                                                                </div>
+                                                                <span class="platform-name">WhatsApp</span>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                        <div class="share-platform" data-platform="linkedin">
+                                                            <div class="platform-wrapper">
+                                                                <div class="platform-icon linkedin">
+                                                                    <i class="ph ph-linkedin-logo icon"></i>
+                                                                    <div class="icon-bg"></div>
+                                                                </div>
+                                                                <span class="platform-name">LinkedIn</span>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                        <div class="share-platform" data-platform="pinterest">
+                                                            <div class="platform-wrapper">
+                                                                <div class="platform-icon pinterest">
+                                                                    <i class="ph ph-pinterest-logo icon"></i>
+                                                                    <div class="icon-bg"></div>
+                                                                </div>
+                                                                <span class="platform-name">Pinterest</span>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                        <div class="share-platform" data-platform="telegram">
+                                                            <div class="platform-wrapper">
+                                                                <div class="platform-icon telegram">
+                                                                    <i class="ph ph-telegram-logo icon"></i>
+                                                                    <div class="icon-bg"></div>
+                                                                </div>
+                                                                <span class="platform-name">Telegram</span>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                        <div class="share-platform" data-platform="email">
+                                                            <div class="platform-wrapper">
+                                                                <div class="platform-icon email">
+                                                                    <i class="ph ph-envelope-simple icon"></i>
+                                                                    <div class="icon-bg"></div>
+                                                                </div>
+                                                                <span class="platform-name">Email</span>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                        <div class="share-platform" data-platform="reddit">
+                                                            <div class="platform-wrapper">
+                                                                <div class="platform-icon reddit">
+                                                                    <i class="ph ph-reddit-logo icon"></i>
+                                                                    <div class="icon-bg"></div>
+                                                                </div>
+                                                                <span class="platform-name">Reddit</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="copy-toast" id="copyToast">
+                                    <div class="toast-content">
+                                        <div class="toast-icon">
+                                            <i class="ph ph-check icon"></i>
+                                        </div>
+                                        <div class="toast-text">
+                                            <strong>Copied successfully!</strong>
+                                            <span>The link has been copied to clipboard</span>
+                                        </div>
+                                    </div>
+                                    <div class="toast-progress"></div>
+                                </div>
+                            </div>
                         </div>
                         <h3 class="heading-h3 heading">
                             What Difference Between Basic, Admin, Encoding and Private RDP & Dedicated Server Plans ?
@@ -1265,6 +1372,7 @@
 
     <script src="assets/libs/jquery/dist/jquery.min.js"></script>
     <script src="assets/js/app.js"></script>
+    <script src="assets/js/share-button.js"></script>
     <script type="text/javascript">
         var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
         (function () {
