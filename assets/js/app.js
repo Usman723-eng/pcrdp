@@ -1,3 +1,8 @@
+// Dynamic year - updates copyright and promotional year placeholders
+$(document).ready(function() {
+  var currentYear = new Date().getFullYear();
+  $('.dynamic-year').text(currentYear);
+});
 
 $(window).on('load', function () {
   $('.loader').fadeOut();

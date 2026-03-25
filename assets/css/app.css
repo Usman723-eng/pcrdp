@@ -5038,6 +5038,18 @@
   box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
 }
+.blog-details .col-details-inr a{
+  display: inline-block;
+  font-weight: 600;
+  color: var(--theme-primary-color);
+  transition: 0.3s;
+}
+
+.blog-details .col-details-inr a:hover {
+  color: var(--theme-primary-color);
+  text-decoration: underline;
+  opacity: 0.75;
+}
 
 @media (max-width: 575px) {
   .blog-details .col-details-inr {
@@ -6972,3 +6984,7 @@ input[type="number"] {
 </div> */
 
 /*# sourceMappingURL=app.css.map*/
+
+
+
+
